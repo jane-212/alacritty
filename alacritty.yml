@@ -1,0 +1,69 @@
+colors:
+
+  primary:
+    background: '0x212121'
+    foreground: '0xf1f1f1'
+
+  normal:
+    black:   '0x212121'
+    red:     '0xc30771'
+    green:   '0x10a778'
+    yellow:  '0xa89c14'
+    blue:    '0x008ec4'
+    magenta: '0x523c79'
+    cyan:    '0x20a5ba'
+    white:   '0xe0e0e0'
+
+  bright:
+    black:   '0x212121'
+    red:     '0xfb007a'
+    green:   '0x5fd7af'
+    yellow:  '0xf3e430'
+    blue:    '0x20bbfc'
+    magenta: '0x6855de'
+    cyan:    '0x4fb8cc'
+    white:   '0xf1f1f1'
+
+window:
+  dimensions:
+    columns: 120
+    lines: 60
+
+  dynamic_padding: false
+
+  startup_mode: Fullscreen
+
+  opacity: 0.8
+
+  padding:
+    x: 10
+    y: 15
+
+scrolling:
+  history: 2000
+
+  multiplier: 20
+
+  faux_multiplier: 100
+
+  auto_scroll: true
+
+font:
+  normal:
+    family: 3270Narrow Nerd Font Mono
+
+draw_bold_text_with_bright_colors: true
+
+tabspaces: 4
+
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+
+live_config_reload: true
+
+key_bindings:
+  - { key: V, mods: command, action: Paste }
+  - { key: C, mods: command, action: Copy }
+
+working_directory: D:\workspace
