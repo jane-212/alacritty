@@ -1,3 +1,11 @@
+working_directory: D:\workspace
+
+font:
+  normal:
+    family: 3270Narrow Nerd Font Mono
+
+  size: 13
+
 colors:
 
   primary:
@@ -48,10 +56,6 @@ scrolling:
 
   auto_scroll: true
 
-font:
-  normal:
-    family: 3270Narrow Nerd Font Mono
-
 draw_bold_text_with_bright_colors: true
 
 tabspaces: 4
@@ -65,5 +69,3 @@ live_config_reload: true
 key_bindings:
   - { key: V, mods: command, action: Paste }
   - { key: C, mods: command, action: Copy }
-
-working_directory: D:\workspace
