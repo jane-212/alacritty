@@ -1,9 +1,11 @@
 working_directory: D:\workspace
 
+shell:
+  program: C:\Program Files\nu\bin\nu.exe
+
 font:
   normal:
     family: 3270Narrow Nerd Font Mono
-
   size: 13
 
 colors:
