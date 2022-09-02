@@ -5,3 +5,4 @@ my config backup of alacritty
 
 ### pre support
 - [3270Narrow Nerd Font Mono](https://www.nerdfonts.com)
+- [nushell](https://www.nushell.sh/)
