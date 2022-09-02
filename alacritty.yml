@@ -6,33 +6,32 @@ shell:
 font:
   normal:
     family: 3270Narrow Nerd Font Mono
+
   size: 13
 
 colors:
-
   primary:
-    background: '0x212121'
-    foreground: '0xf1f1f1'
-
+    foreground: '0xeeeeec'
+ 
   normal:
-    black:   '0x212121'
-    red:     '0xc30771'
-    green:   '0x10a778'
-    yellow:  '0xa89c14'
-    blue:    '0x008ec4'
-    magenta: '0x523c79'
-    cyan:    '0x20a5ba'
-    white:   '0xe0e0e0'
-
+     black:   '0x2e3436'
+     red:     '0xcc0000'
+     green:   '0x73d216'
+     yellow:  '0xedd400'
+     blue:    '0x3465a4'
+     magenta: '0x75507b'
+     cyan:    '0x06989a'
+     white:   '0xd3d7cf'
+ 
   bright:
-    black:   '0x212121'
-    red:     '0xfb007a'
-    green:   '0x5fd7af'
-    yellow:  '0xf3e430'
-    blue:    '0x20bbfc'
-    magenta: '0x6855de'
-    cyan:    '0x4fb8cc'
-    white:   '0xf1f1f1'
+     black:   '0x2e3436'
+     red:     '0xef2929'
+     green:   '0x8ae234'
+     yellow:  '0xfce94f'
+     blue:    '0x729fcf'
+     magenta: '0xad7fa8'
+     cyan:    '0x34e2e2'
+     white:   '0xeeeeec'
 
 window:
   dimensions:
