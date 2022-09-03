@@ -1,5 +1,11 @@
 working_directory: D:\workspace
 
+draw_bold_text_with_bright_colors: true
+
+tabspaces: 4
+
+live_config_reload: true
+
 shell:
   program: C:\Program Files\nu\bin\nu.exe
 
@@ -57,15 +63,9 @@ scrolling:
 
   auto_scroll: true
 
-draw_bold_text_with_bright_colors: true
-
-tabspaces: 4
-
 selection:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
   save_to_clipboard: true
-
-live_config_reload: true
 
 key_bindings:
   - { key: V, mods: command, action: Paste }
