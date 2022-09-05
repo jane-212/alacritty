@@ -13,7 +13,7 @@ font:
   normal:
     family: 3270Narrow Nerd Font Mono
 
-  size: 13
+  size: 14
 
 colors:
   primary:
@@ -50,10 +50,6 @@ window:
 
   opacity: 0.8
 
-  padding:
-    x: 10
-    y: 15
-
 scrolling:
   history: 2000
 
@@ -68,5 +64,8 @@ selection:
   save_to_clipboard: true
 
 key_bindings:
-  - { key: V, mods: command, action: Paste }
-  - { key: C, mods: command, action: Copy }
+  - { key: V, mods: Control, action: Paste }
+  - { key: C, mods: Control, action: Copy }
+  # this is for mac
+  # - { key: V, mods: Command, action: Paste }
+  # - { key: C, mods: Command, action: Copy }
