@@ -1,4 +1,4 @@
-working_directory: D:\workspace
+# working_directory: D:\workspace
 
 draw_bold_text_with_bright_colors: true
 
@@ -6,14 +6,14 @@ tabspaces: 4
 
 live_config_reload: true
 
-shell:
-  program: C:\Program Files\nu\bin\nu.exe
+# shell:
+#   program: C:\Program Files\nu\bin\nu.exe
 
 font:
-  normal:
-    family: 3270Narrow Nerd Font Mono
-
   size: 14
+
+#   normal:
+#     family: 3270Narrow Nerd Font Mono
 
 colors:
   primary:
