@@ -64,8 +64,8 @@ selection:
   save_to_clipboard: true
 
 key_bindings:
-  - { key: P, mods: Control, action: Paste }
+  - { key: V, mods: Control, action: Paste }
   - { key: Y, mods: Control, action: Copy }
   # this is for mac
-  # - { key: P, mods: Command, action: Paste }
+  # - { key: V, mods: Command, action: Paste }
   # - { key: Y, mods: Command, action: Copy }
