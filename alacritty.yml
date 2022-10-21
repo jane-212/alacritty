@@ -1,4 +1,4 @@
-# working_directory: D:\workspace
+working_directory: D:\space
 
 draw_bold_text_with_bright_colors: true
 
@@ -6,14 +6,14 @@ tabspaces: 4
 
 live_config_reload: true
 
-# shell:
-#   program: C:\Program Files\nu\bin\nu.exe
+shell:
+  program: nu
 
 font:
-  size: 14
+  size: 10
 
-#   normal:
-#     family: 3270Narrow Nerd Font Mono
+  normal:
+    family: JetBrainsMono Nerd Font Mono
 
 colors:
   primary:
@@ -48,7 +48,7 @@ window:
 
   startup_mode: Fullscreen
 
-  opacity: 0.8
+  opacity: 0.9
 
 scrolling:
   history: 2000
@@ -65,7 +65,7 @@ selection:
 
 key_bindings:
   - { key: V, mods: Control, action: Paste }
-  - { key: C, mods: Control, action: Copy }
+  - { key: Y, mods: Control, action: Copy }
   # this is for mac
   # - { key: V, mods: Command, action: Paste }
-  # - { key: C, mods: Command, action: Copy }
+  # - { key: Y, mods: Command, action: Copy }
