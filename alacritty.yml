@@ -1,16 +1,16 @@
-working_directory: D:\space
+# working_directory: D:\space
 
-shell:
-  program: nu
+# shell:
+#   program: nu
 
 font:
   size: 10
 
-  normal:
-    family: JetBrainsMono Nerd Font Mono
+  # normal:
+  #   family: JetBrainsMono Nerd Font Mono
 
-window:
-  startup_mode: Fullscreen
+# window:
+#   startup_mode: Fullscreen
 
 selection:
   save_to_clipboard: true
