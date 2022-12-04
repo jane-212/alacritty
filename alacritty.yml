@@ -1,11 +1,5 @@
 working_directory: D:\space
 
-draw_bold_text_with_bright_colors: true
-
-tabspaces: 4
-
-live_config_reload: true
-
 shell:
   program: nu
 
@@ -15,52 +9,10 @@ font:
   normal:
     family: JetBrainsMono Nerd Font Mono
 
-colors:
-  primary:
-    foreground: '0xeeeeec'
- 
-  normal:
-     black:   '0x2e3436'
-     red:     '0xcc0000'
-     green:   '0x73d216'
-     yellow:  '0xedd400'
-     blue:    '0x3465a4'
-     magenta: '0x75507b'
-     cyan:    '0x06989a'
-     white:   '0xd3d7cf'
- 
-  bright:
-     black:   '0x2e3436'
-     red:     '0xef2929'
-     green:   '0x8ae234'
-     yellow:  '0xfce94f'
-     blue:    '0x729fcf'
-     magenta: '0xad7fa8'
-     cyan:    '0x34e2e2'
-     white:   '0xeeeeec'
-
 window:
-  dimensions:
-    columns: 120
-    lines: 60
-
-  dynamic_padding: false
-
   startup_mode: Fullscreen
 
-  opacity: 0.9
-
-scrolling:
-  history: 2000
-
-  multiplier: 20
-
-  faux_multiplier: 100
-
-  auto_scroll: true
-
 selection:
-  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
   save_to_clipboard: true
 
 key_bindings:
