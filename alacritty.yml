@@ -12,7 +12,7 @@ font:
 window:
   # startup_mode: Fullscreen
 
-  opacity: 0.8
+  opacity: 0.83
 
 selection:
   save_to_clipboard: true
